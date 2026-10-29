@@ -1,0 +1,146 @@
+
+/* Basic CSS */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0b1220;
+    color: white;
+}
+
+/* Navigation */
+header {
+    background-color: #172338;
+    padding: 20px 6%;
+}
+
+header h2 {
+    display: inline-block;
+    margin: 0;
+}
+
+span {
+    color: #1685ff;
+}
+
+nav {
+    display: inline-block;
+    float: right;
+    margin-top: 5px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+/* Home */
+.hero {
+    padding: 60px 8%;
+    background-color: #101a2b;
+    min-height: 280px;
+}
+
+.hero div {
+    display: inline-block;
+    width: 65%;
+    vertical-align: middle;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin: 10px 0;
+    color: #1685ff;
+}
+
+.hero h3 {
+    margin-top: 5px;
+}
+
+.hero img {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    object-fit: cover;
+    vertical-align: middle;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #1685ff;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* About */
+.about {
+    padding: 35px 6%;
+    background-color: #172338;
+}
+
+.about div {
+    display: inline-block;
+    width: 48%;
+    vertical-align: middle;
+}
+
+.skills {
+    text-align: center;
+}
+
+.skill {
+    background-color: #26364e;
+    padding: 20px 10px;
+    margin: 5px;
+    width: 28% !important;
+    border-radius: 5px;
+}
+
+/* Projects */
+.projects {
+    padding: 35px 6%;
+}
+
+.project-container {
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    width: 30%;
+    background-color: #1b2a40;
+    padding: 20px;
+    margin: 1%;
+    text-align: left;
+    border-radius: 6px;
+    vertical-align: top;
+}
+
+.card a {
+    color: #1685ff;
+    text-decoration: none;
+}
+
+/* Contact */
+.contact {
+    background-color: #172338;
+    padding: 35px 6%;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #080e19;
+    font-size: 14px;
+}
+
+
+
+
